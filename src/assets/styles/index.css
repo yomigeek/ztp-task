@@ -1,0 +1,64 @@
+/* @font-face {
+    font-family: "MontserratRegular";
+    src: local("MontserratRegular"),
+      url(../fonts/montserrat/Montserrat-Regular.ttf) format("truetype");
+  }
+  
+  @font-face {
+    font-family: "MontserratMedium";
+    src: local("MontserratMedium"),
+      url(../fonts/montserrat/Montserrat-Medium.ttf) format("truetype");
+  }
+  
+  @font-face {
+    font-family: "MontserratBold";
+    src: local("MontserratBold"),
+      url(../fonts/montserrat/Montserrat-Bold.ttf) format("truetype");
+  }
+  
+  @font-face {
+    font-family: "PoppinsRegular";
+    src: local("PoppinsRegular"),
+      url(../fonts/poppins/Poppins-Regular.ttf) format("truetype");
+  }
+  
+  @font-face {
+    font-family: "PoppinsMedium";
+    src: local("PoppinsMedium"), url(../fonts/poppins/Poppins-Medium.ttf) format("truetype");
+  }
+  
+  @font-face {
+    font-family: "PoppinsBold";
+    src: local("PoppinsBold"), url(../fonts/poppins/Poppins-Bold.ttf) format("truetype");
+  } */
+  
+  html {
+    box-sizing: border-box;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: MontserratRegular, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #f8f9fb;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+  }
+  
+  #root {
+    height: inherit;
+  }
+  

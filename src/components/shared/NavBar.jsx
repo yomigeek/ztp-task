@@ -13,7 +13,7 @@ const NavBar = () => {
                   <div className="logo">
                     <a href="/">
                       <img
-                        src="https://res.cloudinary.com/kugoo/image/upload/v1595894607/tests/logo.png"
+                        src="https://res.cloudinary.com/kugoo/image/upload/v1595864255/tests/movielogo.png"
                         alt="logo"
                         // className="app-logo"
                         width="70px"
